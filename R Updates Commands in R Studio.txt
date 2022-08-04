@@ -1,0 +1,17 @@
+To update R on Windows, try using the package installr (only for Windows)
+
+
+
+
+install.packages("installr") 
+
+library(installr)
+
+updateR()  
+
+
+
+
+
+This will start the updating process of your R installation by: “finding the latest R version, downloading it, running the installer, deleting the installation file, copy and updating old packages to the new R installation.”
+From within RStudio, go to Help > Check for Updates to install newer version of RStudio (if available, optional).
